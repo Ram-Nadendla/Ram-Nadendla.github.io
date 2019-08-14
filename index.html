@@ -2,125 +2,108 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<h1 style="color:red">My Profile</h1>
-<style>
- ul {
-list-style-type: none;
-margin-left:5px;
-
-padding:0;
-overflow:hidden;
-background-color:green;
-}
-li a {
-font-size:20px;
-display:block;
-text-decoration:none;
-color:white;
-padding:15px 15px ;
-}
-li{
-float:left;
-}
-a:hover {
-background-color:black;
-}
-p {
-display:block;
-color:black;
-margin-left:5px;
-padding:5px;
-}
-table,td,th {
-border:2px solid;
-text-align:center;
-}
-table {
-border-collapse:collapse;
-width:100%;
-}
-th,td {
-padding:6px;
-}
-h2 {
-margin-left:220px;
-}
-p1 {
-text-decoration:none;
-display:block;
-margin-left:5px;
-padding:5px;
-}
-
-</style>
+<link rel="stylesheet" href="styles.css" text="type/css">
 </head>
 <body>
-<img src="profile.jpg" style="width:15%; height:10%; border-radius:40px;">
-<ul>
-<li> <a href=#Personal>Personal</a></li>
-<li> <a href=#Education>Education</a></li>
-<li> <a href=#Skills>Technical Skills</a></li>
-<li> <a href=#contact>Contact</a></li>
-</ul>
+<!--main start-->
+<div class="main">
+<!--left start-->
+<div class="left-container">
+<img class="profile-pic" src="https://avatars0.githubusercontent.com/u/53472473?s=460&v=4" width="300" height="300">
+<h2 class="name">Nadendla Ram</h2>
+<div class="location"><i class="fa fa-map-marker space"></i><span>Bangalore</span></div>
+<div class="gmail"><i class="fa fa-envelope space"></i><span>ramnadendla1111@gmail.com</span></div>
+<div class="phone-number"><i class="fa fa-phone space"></i><span>9652547286</span></div>
+</div>
+<!--left end-->
 
-<h2 style="color:blue" "margin-left:50px";>Personal information</h2>
-<p>Name:Nadendla.Ram gopal varma</p>
-<p>Date Of Birth:10-03-1999</p>
-<p>Address:</p>
-<p>City:vinukonda</p> 
-<p>Pincode:522647</p>
-<p>District:Guntur</p> 
-<p>State:Andhra Pradesh </p>
-<h2 style="color:blue">Educational Qualification</h2>
-<table>
-<tr>
-<th>S.No</th>
-<th>Name of School/College</th>
-<th>Board</th>
-<th>Percentage</th>
-<tr>
-    <td>1</td>
-	<td>Zilla parishat high school</td>
-    <td>SSC</td>
-    <td>53%</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Model School Junoior College</td>
-    <td>Intermidate Board</td>
-    <td>77.7%</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Krishnaveni Degree College</td>
-    <td>A.N.U</td>
-    <td>60%</td>
-  </tr>
-  
-  <table>
-  <h2 style="color:blue">Technical Skills</h2>
-  <tr>
-  <td>Web Technologies</td>
-  <td>HTML CSS JAVASCRIPT </td>
-  </tr>
-   <tr>
-  <td>Operating System</td>
-  <td>Windows</td>
-  </tr>
-   <tr>
-  <td>Versioning Tool</td>
-  <td>GITHUB BIT-BUCKET SOURCE-TREE</td>
-  </tr>
-</table>
+<!--right start-->
+<div class="right-container">
+<div class="navigation-container">
 
- <h2 style="color:blue">Contact</h2>
- <p1>Linked in</p1>
- <a href="Linked in">https://www.linkedin.com/in/ram-nadendla-70194014a/</a>
- <p1>Phone</p1>
- <a href="phone_number">9652547286</a>
- <p1>E-mail</p1>
- <a href="gmail">ramnadendla1111@gmail.com</a>
+<a class="nav-link active" href="#educational">Educational</a>
+<a class="nav-link" href="#technical">Technical</a>
+<a class="nav-link" href="#contact">Contact</a>
+<a class="nav-link" href="#personal">Personal</a>
+</div>
+
+<div class="start-container">
+<div id="educational">
+<h3 style="color:#F4B400;">Educational Details</h3>
+<div class="education-container">
+<div class="ssc">
+<h4>SSC</h4>
+<div class="line-height">Z.P.High School</div>
+<div class="line-height">2014 passed out</div>
+<div class="line-height">53%</div>
+<div class="line-height"><i class="fa fa-map-marker space"></i><span>Bollapali</span></div>
+</div>
+<div class="inter">
+<h4 class="line-height">INTER</h4>
+<div class="line-height">A.P.M.S.Junior College</div>
+<div class="line-height">2016 passed out</div>
+<div class="line-height">77%</div>
+<div class="line-height"><i class="fa fa-map-marker space"></i><span>Bollapali</span></div>
+</div>
+<div class="degree">
+<h4><i class="fa fa-graduation-cap space"></i>GRADUATION</h4>
+<div class="line-height">K.V.Degree College</div>
+<div class="line-height">2019 passed out</div>
+<div class="line-height">60%</div>
+<div class="line-height"><i class="fa fa-map-marker space"></i><span>Vinukonda</span></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="middle-container">
+<div id="technical">
+<h3 style="color:#DB4437;">Technical Skills</h3>
+<div class="technical-container">
+<div class="web-technologics">
+<h4>WEB-TECHNOLOGICS</h4>
+<div class="line-height"><i class="fa fa-html5 space"></i><span>HTML</span></div>
+<div class="line-height"><i class="fa fa-css3 space"></i><span>CSS</span></div>
+<div class="line-height"><span>JAVASCRIPT</span></div>
+</div>
+<div class="operating-systems">
+<h4>OPERATING-SYSTEM</h4>
+<div class="line-height"><i class="fa fa-windows space"></i><span>WINDOWS</span></div>
+</div>
+<div class="tools">
+<h4>TOOLS</h4>
+<div class="line-height"><i class="fa fa-github space"></i><span>GITHUB</span></div>
+<div class="line-height"><i class="fa fa-bitbucket space"></i><span>BIT-BUCKET</span></div>
+<div class="line-height"><span>SOURCE-TREE</span></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="last-container">
+<div id="contact">
+<h3 style="color:#00A4EF">Contact Details</h3>
+<div class="contact-container">
+<div class="linkedin">
+<h4><i class="fa fa-linkedin-square space"></i>LINKED IN</h4>
+<div><a href="https://www.linkedin.com/in/ram-nadendla-70194014a/">Ram Nadendla</a></div>
+</div>
+<div class="email">
+<h4><i class="fa fa-envelope space"></i>E-MAIL</h4>
+<div>ramnadendla1111@gmail.com</div>
+</div>
+
+<div class="phone">
+<h4><i class="fa fa-phone space"></i>PHONE</h4>
+<div><span>9652547286</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--right end-->
+</div>
+<!--main end-->
 </body>
-<script>
-</script>
 </html>
