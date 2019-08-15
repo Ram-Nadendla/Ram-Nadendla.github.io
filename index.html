@@ -3,8 +3,14 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css" text="type/css">
+<script src="index.js">
+
+</script>
 </head>
 <body>
+
+
+
 <!--main start-->
 <div class="main">
 <!--left start-->
@@ -20,11 +26,39 @@
 <!--right start-->
 <div class="right-container">
 <div class="navigation-container">
+<a onclick="personal()" id="p" class="nav-link active" href="#personal">Personal</a>
+<a onclick="educational()" id="e" class="nav-link" href="#educational">Educational</a>
+<a onclick="technical()"  id="t" class="nav-link" href="#technical">Technical</a>
+<a onclick="contact()"  id="c" class="nav-link" href="#contact">Contact</a>
+</div>
 
-<a class="nav-link active" href="#educational">Educational</a>
-<a class="nav-link" href="#technical">Technical</a>
-<a class="nav-link" href="#contact">Contact</a>
-<a class="nav-link" href="#personal">Personal</a>
+<div class="add-container">
+<div id="personal">
+<h3 style="color:#0F9D58;">Personal-Details</h3>
+<div class="personal-conatiner">
+<div class="person">
+<h4 style="color:#DB4437;">Bio</h4>
+<div class="line-height">Nadendla Ram gopal varma</div>
+<div class="line-height">10/03/1999</div>
+<div class="line-height">Male</div>
+</div>
+<div class="address">
+<h4 style="color:#F4B400;"><i class="fa fa-address-book space"></i>ADDRESS</h4>
+<div class="line-height">Vinukonda</div>
+<div class="line-height">522647</div>
+<div class="line-height">Andhra Pradesh</div>
+<div class="line-height">India</div>
+</div>
+<div class="Hobbies-Intrests">
+<h4 style="color: #00A4EF;">HOBBIES-INTRESTS</h4>
+<div class="line-height">Travelling</div>
+<div class="line-height">Playing games</div>
+<div class="line-height">Broswering Internet</div>
+<div class="line-height">I intested to learn any new thing</div>
+<div class="line-height">Listening music</div>
+</div>
+</div>
+</div>
 </div>
 
 <div class="start-container">
@@ -32,21 +66,21 @@
 <h3 style="color:#F4B400;">Educational Details</h3>
 <div class="education-container">
 <div class="ssc">
-<h4>SSC</h4>
+<h4 style="color:#00A4EF;">SSC</h4>
 <div class="line-height">Z.P.High School</div>
 <div class="line-height">2014 passed out</div>
 <div class="line-height">53%</div>
 <div class="line-height"><i class="fa fa-map-marker space"></i><span>Bollapali</span></div>
 </div>
 <div class="inter">
-<h4 class="line-height">INTER</h4>
+<h4 class="line-height" style="color:#DB4437;">INTER</h4>
 <div class="line-height">A.P.M.S.Junior College</div>
 <div class="line-height">2016 passed out</div>
 <div class="line-height">77%</div>
 <div class="line-height"><i class="fa fa-map-marker space"></i><span>Bollapali</span></div>
 </div>
 <div class="degree">
-<h4><i class="fa fa-graduation-cap space"></i>GRADUATION</h4>
+<h4 style="color:#0F9D58;"><i class="fa fa-graduation-cap space"></i>GRADUATION</h4>
 <div class="line-height">K.V.Degree College</div>
 <div class="line-height">2019 passed out</div>
 <div class="line-height">60%</div>
@@ -61,17 +95,17 @@
 <h3 style="color:#DB4437;">Technical Skills</h3>
 <div class="technical-container">
 <div class="web-technologics">
-<h4>WEB-TECHNOLOGICS</h4>
+<h4 style="color:#0F9D58;">WEB-TECHNOLOGICS</h4>
 <div class="line-height"><i class="fa fa-html5 space"></i><span>HTML</span></div>
 <div class="line-height"><i class="fa fa-css3 space"></i><span>CSS</span></div>
-<div class="line-height"><span>JAVASCRIPT</span></div>
+<div class="line-height"><i class="fab fa-js"></i><span>JAVASCRIPT</span></div>
 </div>
 <div class="operating-systems">
-<h4>OPERATING-SYSTEM</h4>
+<h4 style="color:#F4B400;">OPERATING-SYSTEM</h4>
 <div class="line-height"><i class="fa fa-windows space"></i><span>WINDOWS</span></div>
 </div>
 <div class="tools">
-<h4>TOOLS</h4>
+<h4 style="color:#00A4EF;">TOOLS</h4>
 <div class="line-height"><i class="fa fa-github space"></i><span>GITHUB</span></div>
 <div class="line-height"><i class="fa fa-bitbucket space"></i><span>BIT-BUCKET</span></div>
 <div class="line-height"><span>SOURCE-TREE</span></div>
@@ -86,17 +120,17 @@
 <h3 style="color:#00A4EF">Contact Details</h3>
 <div class="contact-container">
 <div class="linkedin">
-<h4><i class="fa fa-linkedin-square space"></i>LINKED IN</h4>
+<h4 class="line-height" style="color:rgb(0, 119, 181);"><i class="fa fa-linkedin-square space"></i>LINKED IN</h4>
 <div><a href="https://www.linkedin.com/in/ram-nadendla-70194014a/">Ram Nadendla</a></div>
 </div>
 <div class="email">
-<h4><i class="fa fa-envelope space"></i>E-MAIL</h4>
-<div>ramnadendla1111@gmail.com</div>
+<h4 class="line-height" style="color:#DB4437;"><i class="fa fa-envelope space"></i>E-MAIL</h4>
+<div class="line-height">ramnadendla1111@gmail.com</div>
 </div>
 
 <div class="phone">
-<h4><i class="fa fa-phone space"></i>PHONE</h4>
-<div><span>9652547286</span></div>
+<h4 class="line-height" style="color:#0F9D58;"><i class="fa fa-phone space"></i>PHONE</h4>
+<div class="line-height"><span>9652547286</span></div>
 </div>
 </div>
 </div>
